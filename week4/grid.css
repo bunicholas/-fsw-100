@@ -1,0 +1,75 @@
+#one{
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#two{
+    background-color:#EE2E84;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#three{
+    background-color:#EE2E84;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#four{
+    background-color:#EE2E84;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#five{
+    background-color:#EE2E84;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#six{
+    background-color:#85CFD8 ;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#seven{
+    background-color:#85CFD8;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#eight{
+    background-color: #8DC63F;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#nine{
+    background-color:#E76E34;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+@media only screen and (min-width: 768px){
+    div {
+        /* border: 5px dashed purple; */
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        
+grid-gap: 10px;
+    }
+    #one{
+        grid-column: span 4;
+    }  
+    #six, #seven{
+        grid-column: span 2;
+    }  
+    #eight {
+        grid-column: span 3;
+    }
+}
