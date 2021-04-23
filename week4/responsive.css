@@ -1,0 +1,50 @@
+header{
+    background-color: lightskyblue;
+
+}
+aside{
+    background-color: lightcoral;
+}
+article {
+    background-color: lightgreen;
+}
+footer {
+    background-color: lightseagreen;
+}
+/* tablet */
+@media screen and (min-width: 750px) {
+    body{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        
+
+    }
+    header{
+        grid-column: span 4;
+    }
+    article{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #aside1{
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+    #aside2{
+        grid-column: span 4;
+    }
+    footer{
+        grid-column: span 4;
+    }
+}
+/* laptop */
+@media screen and (min-width: 1000px)  {
+    article{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #aside2{
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+}
