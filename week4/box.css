@@ -1,0 +1,68 @@
+header{
+width:50px;
+height:50px;
+border:solid blue 50px;
+background-color: blue;
+}
+header:hover{
+ border:solid green 50px; 
+
+}
+#two{
+width: 50px;
+height: 50px;
+/* border: solid blue 50px;  */
+position:absolute;
+top: 58px;
+left: 58px;
+background-color: red;
+}
+#two:hover{
+     background-color: green; 
+    /* border:solid green 50px; */
+}
+#three{
+    width: 50px;
+    height: 50px;
+    border: solid blue 50px;
+    background-color: red;
+    }
+    #three:hover{
+        background-color: red;
+        color:blue;
+        opacity: 0.5;
+    }
+    #four{
+        width: 50px;
+        height: 50px;
+        border: solid blue 50px;
+        background-color: red;
+        }
+        #four:hover{
+            background-color: red;
+            color:blue;
+            width: 150px;
+        }
+        #five{
+            width: 50px;
+            height: 50px;
+            border: solid blue 50px;
+            background-color: red;
+            }
+            #five:hover{
+                background-color: red;
+                color:blue;
+                height: 150px; 
+            }
+            #six{
+                width: 50px;
+                height: 50px;
+                border: solid blue 50px;
+                background-color: red;
+                }
+                #six:hover{
+                    background-color: red;
+                    color:blue;
+                    width: 200px;   
+                    height: 200px;
+                }
