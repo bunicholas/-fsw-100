@@ -20,7 +20,7 @@ div {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 10px;
+    padding: 14px 5px;
     text-decoration: none;
   }
   
@@ -34,10 +34,13 @@ div {
     padding-left: 220px;
     padding-right: 220px;
   } 
+  article:hover{
+
+  }
   img{
 float: right;
-margin: 25px;
-height: 250px;
+margin: 15px;
+height: 180px;
 width: auto
   }
   h1,span{
@@ -51,3 +54,11 @@ margin: 15px;
     span{
     color:blue;
     }
+#home{
+float:none;
+color:red;
+text-align: center;
+}
+body{
+  background-image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhdqwalls.com%2Fwallpaper%2F2560x1440%2Fusa-flag&psig=AOvVaw2Qnvi6_nOsbjfsWm4oPtaq&ust=1620266895822000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjfpe-6sfACFQAAAAAdAAAAABAE;"
+}
