@@ -7,7 +7,7 @@
     box-shadow: 5px 10px;
     padding: auto;
     background-color: skyblue;
-    transition: background-color is ease-in 2s, width is ease-in-out;
+    transition: 1s;
 }
 
 .box:hover {

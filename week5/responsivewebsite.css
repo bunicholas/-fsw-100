@@ -29,8 +29,6 @@ div {
   }
   article{
     margin:30px;
-    border: solid blue 5px;
-    height: 360px;
     padding-left: 220px;
     padding-right: 220px;
   } 
@@ -41,18 +39,24 @@ div {
 float: right;
 margin: 15px;
 height: 180px;
-width: auto
+width: auto;
+box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+transition:1s;
   }
   h1,span{
-float: left;
+float: right;
 margin-top: 30px;
 margin: 15px;
+box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+transition:1s;
   }
   h1 {
     color: blue;
+    font-family: 'Open Sans', sans-serif;
     }
     span{
     color:blue;
+    font-family: 'Open Sans', sans-serif;
     }
 #home{
 float:none;
@@ -61,4 +65,25 @@ text-align: center;
 }
 body{
   background-image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhdqwalls.com%2Fwallpaper%2F2560x1440%2Fusa-flag&psig=AOvVaw2Qnvi6_nOsbjfsWm4oPtaq&ust=1620266895822000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjfpe-6sfACFQAAAAAdAAAAABAE;"
+}
+img:hover {
+transform:scale(1.2);
+z-index:2;
+}
+h1,span:hover{
+transform:scale(1.4);
+z-index:2;
+}
+header{
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+footer{
+  font-size:50px;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
 }
