@@ -14,3 +14,81 @@
     background-color: lightcoral;
     width: 400px;
 }
+.box2{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    padding: auto;
+    background-color: blue;
+    transition: 1s;
+}
+.box2:hover {
+    background-color: red;
+    width: 400px;
+    
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    padding: auto;
+    background-color: green;
+    transition: 1s;
+}
+.box3:hover {
+    background-color: yellow;
+    width: 400px;
+     
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    padding: auto;
+    background-color: purple;
+    transition: 1s;
+}
+.box4:hover{
+    background-color: pink;
+    width: 400px; 
+}
+.box5 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    padding: auto;
+    background-color: navy;
+    transition: 1s;
+}
+.box5:hover {
+    background-color: brown;
+    width: 400px; 
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+    padding: auto;
+    background-color: orange;
+    transition: 1s;
+}
+.box6:hover{
+    background-color: olive;
+    width: 400px; 
+}
+
