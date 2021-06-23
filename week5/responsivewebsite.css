@@ -1,6 +1,5 @@
 div {
     width: 300px;
-    border: 15px solid green;
     padding: 50px;
     margin: 20px;
   }
@@ -83,7 +82,26 @@ footer{
   font-size:50px;
   text-align:center;
   font-family: 'Open Sans', sans-serif;
+  text-align: bottom;
 }
 p{
   font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 1750px) { 
+  header {
+font-size: 50px;
+   }
+   footer {
+font-size: 25px;
+   }
+img {
+font-size: 25px;
+}
+   }
+.grid-container{
+display: grid;
+grid-template-columns: auto auto;
+}
+.grid-item{
+
 }
